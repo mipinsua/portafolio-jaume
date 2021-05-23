@@ -1,5 +1,11 @@
 @import url(./button.css);
 @import url(./header.css);
+@import url(./button-icon.css);
+@import url(./hero.css);
+@import url(./wrapper.css);
+@import url(./menu.css);
+@import url(./featured-text.css);
+@import url(./testimonial.css);
 
 :root {
     --fontBase: 'Poppins', sans-serif;
@@ -22,7 +28,7 @@ body {
     background: var(--gradient);
     min-block-size: 100vh;
     font: var(--body1);
-    color: var(--green);
+    color: var(--purple);
 }
 
 

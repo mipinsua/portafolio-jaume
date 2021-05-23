@@ -1,0 +1,31 @@
+.featured-text {
+    display: flex;
+    flex-direction: column;
+    padding-block-start: 200px;
+    padding-block-end: 200px;
+    text-align: center;
+    max-inline-size: 900px;
+    margin: auto;
+    gap: 24px;
+}
+.featured-text h4 {
+    font: var(--headline4);
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 38px;
+}
+.featured-text h5 {
+    font: var(--headline5);
+    margin: 0;
+}
+.featured-text .arrow-down {
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .featured-text h4 {
+        font: var(--headline4);
+        font-weight: normal;
+    }
+}
