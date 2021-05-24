@@ -6,6 +6,9 @@
 @import url(./menu.css);
 @import url(./featured-text.css);
 @import url(./testimonial.css);
+@import url(./projects.css);
+@import url(./social.css);
+@import url(./footer.css);
 
 :root {
     --fontBase: 'Poppins', sans-serif;
@@ -29,6 +32,7 @@ body {
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);
+    margin: 0;
 }
 
 
